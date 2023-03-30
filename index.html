@@ -1,0 +1,236 @@
+<html>
+<head>
+<title>My Web</title>
+</head>
+<body>
+<h1>This is my first web page.</h1>
+<h2>This is my first web page.</h2>
+<h3>This is my first web page.</h3>
+<h4>This is my first web page.</h4>
+<h5>This is my first web page.</h5>
+<h6>This is my first web page hosting on S3.</h6>
+
+This was my first experiment with the size of the fonts.<p>
+
+Now I will move forward to learn different tags used in html.
+</p>
+The very first tag that I am gonna learn is <b><i>Break</i></b> tag.<br/> 
+The reason for this is that the fisrt problem I faced is with creating a new line 
+in the body of the document. And the next tag would be <b><i>Paragraph</i></b> tag. And finally these two tags are successfully learnt and tested.
+<p>
+The next on the list is the <i><b>Bold</b></i> tag since I found the need to bold couple of words in my text. After successfully learning the bold tag 
+let us now look into some other font style tags such as <i><b>Italic</b></i> tag. The next font style tag that I am gonna learn is the <strong>Strong</strong> tag.
+This tag is used to bold a text as well as to identify the text as important. Another tag for text style is <u><b>Underline</b></u> tag. In order to highlight
+a text, I am going to use the <b><mark>Mark</mark></b> tag. Using mark tag the text is highlighted in <strong><mark>Yellow</mark></strong> colour by default.
+And the last tag for text style is the <b>Del</b> tag. This tag is used to <del>strikethrough</del> a text.
+</p>
+Let us now learn about creating a list of items. There are two kinds of lists:  a) Ordered list and b) Unordered list <br/>
+<p>
+Items can be listed using one of the follwing: <br/>
+- Numbers<br/>
+- Alphabets<br/>
+- Roman numbers or <br/>
+- Symbols (Disc, Square, Circle, None)<br/></p>
+In order to change the type, just write type="X" with the ol or ul withing the angle brackets. 
+
+
+<h2>Ordered List</h2>
+
+<ol type="A">
+<li> Apple </li>
+<li> Mango </li>
+<li> Grapes </li>
+<li> Orange </li>
+<li> Pineapple </li> </ol>
+
+<h2>Unordered List</h2>
+
+<ul type="square">
+<li> Cat </li>
+<li> Dog </li>
+<li> Goat </li>
+<li> Lion </li>
+<li> Tiger </li></ul>
+
+<p>
+There is another kind of list known as <b>Nested List</b>. It is a list which contains another list inside it.
+</p>
+<h2>Nested List</h2>
+<ul>
+<li> Authors 
+	<ul>
+	<li>Nicholas Sparks </li> 
+	<li>Amish Tripathi </li>
+	<li>Chetan Bhagat</li>
+	</ul>
+</li>
+	
+<li> Books 
+	<ol>
+	<li>The Notebook</li>
+	<li>Shiva Triology
+		<ol type="i">
+			<li>The immortals of Meluha</li>
+			<li>The secretes of the Nagas</li>
+			<li>The Oaths of the Vayuputras</li>
+		</ol>
+	</li>
+	<li>Revolution 20-20</li>
+	</ol>
+</li> </ul> <br/>
+Here we have successfully learnt to create a nested list.
+<p>
+But I am facing a problem now. The next line after the list is not in proper identation with the starting lines of the page. But finally I found the error and fixed it.
+And now we are good to go ahead and explore more about website development using html.
+<p>
+Let us now learn an important tag which is <b>Image tag</b>. The image tag is used to insert image on the web site. The image tag is an open tag <img/>.
+The various attributes of the image tag are:<br/>
+- src (path of the image file)<br/> 
+- title<br/>
+- alt<br/>
+- height<br/>
+- width<br/>
+<p>
+Here I got stuck with the problem in viewing the image. Trying to fix the issue. Tried to provide the full path of the image but it didn't work. Then tried with renaming the image file the file extension as .jpg. 
+And it worked. Hurray! <br> Here is the image.
+</p>
+<p>
+<center>
+<img src="1970399f2f71b26a117a62919c29fe4b.jpg" title="Test Image for my Website" alt="This image cannot be viewed at the moment." height="400px" width="275px"/>
+</center>
+</P>
+
+Let us now see the <b>Anchor tag</b>. The anchor tag defines a hyperlink, which is used to link one page to another. <strong>It is a close tag</strong>.
+href indicates the link's destination. Another attribute of anchor tag is the Target. There are two types of target:<br/>
+- _blank (takes to some other page or opens in another tag of the browser)<br/>
+- _parent (opens in the same page)<br/> 
+Note:- If the target is not specified the the page will open in the parent page only.<br/>
+
+<p>
+<a href="Contacts.html" target="_blank"> <b>Go to contact details</b> </a>(opens in new tab) <!-- check these two lines and observe the difference -->
+<a href="Contacts.html" target="_parent"> <h3>Go to contact details</h3> (opens in same tab)</a>
+</P>
+<p>
+Note:- Here in this page I have given the reference of a html file which is <strong>contact.html</strong> but we can provide a link of any website (ex:- google.com)
+</p>
+Let us now learn three new tags which are: <br/>
+- Superscript (sup)<br/> 
+- Subscript (sub)<br/>
+- Centre (center)<br/>
+<p>
+Let's try to write a mathematical equation to learn superscript tag.<br/>
+	<center>
+		<h4>(a + b)<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup> + 2ab</h4>
+	</center> 
+</p>
+<p>
+Let us now try to write a chemical equation to learn subscript tag.<br/>
+	<center>
+		<h4>Cl<sub>2</sub> + H<sub>2</sub>O = HOCl + H<sup>+</sup> OCl<sup>-</sup></h4>
+	</center>
+<b>HOCl = Hypochlorous acid</b><br/>
+<b>OCl<sup>-</sup> = Hypochlrorite ion</b><br/>
+Note:- The disinfecting power of HOCl is about 40-80 times that of OCl<sup>-</sup>.
+</p>
+<p> 
+Let us now learn <b>Meter tag</b>. To create a meter we need to provide max, min and the value for the meter.
+<br/>
+<h1><meter min="0" max="100" value="75"> </meter></h1>
+</p>
+<p>
+The next and very important tag is <b>Table tag</b>. The table tag is used to show some data which are related to each other. Table tag is used to create tables. The various tags used to create a complete table are as follows:<br/>
+- table (to create a table) <br/>
+- thead (to define the header of the table) <br/>
+- tbody (to define the body of the table) <br/>
+- tr (define a new row of the table) <br/>
+- th (to show the heading of each column inside the table row <br/>
+- td (to show the data inside the table <br/>
+Note:- The other attributes of table tag are <b>border</b> and <b>align</b>. (border="X" align="Y")
+
+<table border="5" align="center">
+	<thead>
+		<tr>
+			<th>Course</th>
+			<th>Fees</th>
+			<th>Duration</th>
+		</tr>
+	</thead>
+
+	<tbody>	
+		<tr>
+			<td>DevOps</td>
+			<td>25000</td>
+			<td>4 Months</td>
+		</tr>
+		<tr>
+			<td>Development</td>
+			<td>10000</td>
+			<td>2 Months</td>
+		</tr>
+	
+	</tbody>
+</table>
+</p>
+Let us now explore more of table attributes.
+<p>
+<table border="5" bgcolor="cyan" align="center" cellspacing="3" cellpadding="7">
+	<thead>
+		<tr bgcolor="yellow">
+			<th>table</th>
+			<th>tr</th>
+			<th>td or th</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr>
+			<td>bgcolor</td>
+			<td>bgcolor</td>
+			<td>bgcolor</td>
+		</tr>
+		<tr>
+			
+			<td>align</td>
+			<td>align</td>
+			<td bgcolor="lightgreen">rowspan</td>
+		</tr>
+		<tr>
+			<td>border</td>
+			<td></td>
+			<td bgcolor="red">colspan</td>
+		</tr>
+		<tr>				
+			<td>cellspacing</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr height="35">
+			<td colspan="3"></td>
+		</tr>
+		<tr>
+			<td>cellpadding</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>width</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>height</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr height="35">
+			<td colspan="3"></td>
+		</tr>
+		<tr height="35">
+			<td colspan="2"></td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+</p>
+</body>
+</html>

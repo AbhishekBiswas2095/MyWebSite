@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<title>Form</title>
+	<body>
+		
+	<p>
+		Let us now learn to create an HTML form. An HTML form is used to collect user input. The user input can then be sent
+		to a server for processing. The tag used for creating a form is <b>form tag</b>. <br/>
+	</p>	
+	<p>	
+		The following is a list of form elements:-<br/>
+- Text Input Controls <br/>
+- Checkboxes Controls <br/>
+- Radio Box Controls <br/>
+- Select Box Controls <br/>
+- File Select Boxes <br/>
+- Hidden Controls <br/>
+- Clickable buttons <br/>
+- Submit and Reset Button <br/>
+	</p> 
+	<p>
+Textbox:- To take small text as input.<br/>
+Textarea:- To take large text as input.<br/>
+Radio Button:- To select only one item among a few.<br/>
+Submit Button:- To submit the form.</br>
+Reset Button:- To reset the data.<br/>
+	</P
+	<p>
+<b>Input tag:-</b> It is a <i><u>opened tag</u></i> which takes typed data or value or placeholder. It is used to create the elements of the form.
+	</p>
+		<h2>My Form</h2>
+	<form>
+	<fieldset>
+	<legend> Customer Details </legend>
+		Name: <input type="text" placeholder="Enter your name here..."/><br/><br/>
+		Address: <textarea rows="5" cols="20"> This is the text area</textarea> <br/><br/>
+		Gender:
+			<input type ="radio" value="M" name="gender"/> Male
+			<input type ="radio" value="F" name="gender"/> Female
+			<input type ="radio" value="O" name="gender"/> Other <br/><br/>
+		Contact No.: <input type="number" /> <br/><br/>		
+		Country:
+			<select>
+			<option>Please select your country</option>
+			<optgroup label="ASIA">
+			<option value="India">India</option>
+			<option value="Sri Lanka">Sri Lanka</option>
+			<option value="Bnagladesh">Bangladesh</option>
+			<option value="Myanmar">Myanmar</option>
+			</optgroup>
+			<optgroup label="North America">
+			<option value="USA">USA</option>
+			<option value="Canada">Canada</option>
+			</optgroup>
+			</select><br/><br/>
+		Hobbies:
+			<input type="checkbox" name="hobbies[]"/> Dancing 
+			<input type="checkbox" name="hobbies[]"/> Singing
+			<input type="checkbox" name="hobbies[]"/> Socializing <br/><br/>
+		Image:
+			<input type="file" name="image"/><br/><br/>
+			<input type="submit" value="Submit" />
+			<input type="reset" value="reset" /><br/><br/>
+	</fieldset>
+	</form>
+	</body>
+</html>
